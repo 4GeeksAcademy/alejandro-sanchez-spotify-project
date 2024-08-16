@@ -1,0 +1,41 @@
+.playlist-container {
+    background-color: #121212;
+    height: 100vh;
+}
+
+.playlist-list {
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item:hover,
+.active-song {
+    background-color: #1f1ceb; 
+    color: white;
+}
+
+.player-controls {
+    text-align: center;
+}
+
+.player-controls .btn {
+    font-size: 1.5rem;
+    color: #1f1ceb;
+}
+
+.player-controls .btn-outline-light {
+    border-color: #1f1ceb;
+}
+
+.player-controls .btn-outline-light:hover {
+    background-color: #1f1ceb;
+    color: white;
+    border-color: #1f1ceb;
+}
+.active-song {
+    color: #1f1ceb;
+}
